@@ -1,0 +1,18 @@
+#filter_bar {
+    z-index: 1;
+    position: relative;
+    padding: 15px 25px;
+    .clearfix();
+    > .filters {
+        .clearfix();
+        .filter {
+            &.active {
+                color: @brand-primary;
+                font-weight: 700;
+            }
+            border-radius: 4px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
